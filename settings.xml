@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-project id="0759cf2d-631d-4414-942d-97d94a0aa9c7" created="2.1.0" activeEnvironment="Default environment" name="SOAPUITest" resourceRoot="" compositeProjectFormat="1.3" xmlns:con="http://eviware.com/soapui/config"><con:description>This is the description of the Test Project
 </con:description><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
-  <con:entry key="Report Format(s)" value="XML"/>
+  <con:entry key="Report Format(s)" value=""/>
   <con:entry key="Host:Port" value=""/>
   <con:entry key="Export JUnit Results" value="true"/>
   <con:entry key="Export All" value="true"/>
@@ -10,7 +10,7 @@
   <con:entry key="WSS Password Type" value=""/>
   <con:entry key="TestSuite" value="&lt;all>"/>
   <con:entry key="Endpoint" value=""/>
-  <con:entry key="Select Report Type" value="Data Export"/>
+  <con:entry key="Select Report Type" value="JUnit-Style HTML Report"/>
   <con:entry key="System Properties" value=""/>
   <con:entry key="Run in-process" value="false"/>
   <con:entry key="Password" value=""/>
@@ -28,7 +28,7 @@
   <con:entry key="Environment" value="Default environment"/>
   <con:entry key="Coverage Report" value="false"/>
   <con:entry key="Enable UI" value="false"/>
-  <con:entry key="Root Folder" value="C:\Users\graywa01\Documents\_Nielsen\Zephyr\myfolder"/>
+  <con:entry key="Root Folder" value=".\"/>
   <con:entry key="Ignore Errors" value="false"/>
   <con:entry key="Domain" value=""/>
   <con:entry key="Tool Args" value=""/>
