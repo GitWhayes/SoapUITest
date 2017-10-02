@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 0
+Size: 0
+Timestamp: Thu Sep 28 12:54:07 EDT 2017
+TestStep: rqstGoogleDirections
+
+----------------- Messages ------------------------------
+javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+
+- missing response / garbage collected -

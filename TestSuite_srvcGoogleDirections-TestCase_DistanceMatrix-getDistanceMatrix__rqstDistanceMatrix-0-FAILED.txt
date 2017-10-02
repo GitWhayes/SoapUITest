@@ -1,0 +1,48 @@
+Status: FAILED
+Time Taken: 2090
+Size: 52
+Timestamp: Wed Sep 27 16:02:50 EDT 2017
+TestStep: getDistanceMatrix - rqstDistanceMatrix
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code:500 is not in acceptable list of status codes
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://maps.googleapis.com
+Method: GET
+StatusCode: 500
+URL: https://maps.googleapis.com/maps/api/directions/json?key=AIzaSyAeKMoTEyLw0bHhXH21yGtWqu3OSnszEV4&origin=75%209th%20Ave%20New%20York%2C%20NY&destination=MetLife%20Stadium%201%20MetLife%20Stadium%20Dr%20East%20Rutherford%2C%20NJ%2007073
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/1.8.0_131)]
+Host: [maps.googleapis.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://maps.googleapis.com/maps/api/directions/json?key=AIzaSyAeKMoTEyLw0bHhXH21yGtWqu3OSnszEV4&origin=75%209th%20Ave%20New%20York%2C%20NY&destination=MetLife%20Stadium%201%20MetLife%20Stadium%20Dr%20East%20Rutherford%2C%20NJ%2007073 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: maps.googleapis.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+
+
+---------------- Response --------------------------
+X-Frame-Options: [SAMEORIGIN]
+Transfer-Encoding: [chunked]
+Cache-Control: [no-cache, must-revalidate]
+Server: [mafe]
+Alt-Svc: [quic=":443"; ma=2592000; v="39,38,37,35"]
+Vary: [Accept-Language]
+Pragma: [no-cache]
+Expires: [Fri, 01 Jan 1990 00:00:00 GMT]
+#status#: [HTTP/1.1 500 Internal Server Error]
+X-XSS-Protection: [1; mode=block]
+Date: [Wed, 27 Sep 2017 20:02:52 GMT]
+Content-Type: [application/json; charset=UTF-8]
+
+{
+   "routes" : [],
+   "status" : "UNKNOWN_ERROR"
+}
+

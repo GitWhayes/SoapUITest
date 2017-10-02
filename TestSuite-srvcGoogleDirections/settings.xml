@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="dbb8bd4d-a17f-4e3b-a71c-a56e97b85fac" name="TestSuite srvcGoogleDirections" xmlns:con="http://eviware.com/soapui/config"><con:description>TestSuite generated for REST Service [srvcGoogleDirections]</con:description><con:settings><con:setting id="dbb8bd4d-a17f-4e3b-a71c-a56e97b85facfileName">TestSuite-srvcGoogleDirections</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/></con:testSuite>

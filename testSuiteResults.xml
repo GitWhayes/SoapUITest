@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSuiteResults>
+  <testSuite>
+    <startTime>14:51:42</startTime>
+    <status>FINISHED</status>
+    <testSuiteName>TestSuite srvcGoogleDirections</testSuiteName>
+    <timeTaken>2418</timeTaken>
+    <testRunnerResults>
+      <testCase>
+        <startTime>14:51:42</startTime>
+        <status>FINISHED</status>
+        <testCaseId>a86d76d5-73b1-4277-9f7a-e906e87b6c7a</testCaseId>
+        <testCaseName>rsrcGoogleDirections TestCase</testCaseName>
+        <timeTaken>1067</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [rqstGoogleDirections] OK: took 1067 ms</message>
+            <name>rqstGoogleDirections</name>
+            <order>2</order>
+            <started>14:51:42.279</started>
+            <status>OK</status>
+            <timeTaken>1067</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/rest_request_step.png</iconPath>
+            <testStepName>rqstGoogleDirections</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+      <testCase>
+        <startTime>14:51:43</startTime>
+        <status>FINISHED</status>
+        <testCaseId>878bfae0-297c-4610-aee2-42bf86cc3f75</testCaseId>
+        <testCaseName>TestCase_DistanceMatrix</testCaseName>
+        <timeTaken>714</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [getDistanceMatrix - rqstDistanceMatrix] OK: took 714 ms</message>
+            <name>getDistanceMatrix - rqstDistanceMatrix</name>
+            <order>2</order>
+            <started>14:51:43.651</started>
+            <status>OK</status>
+            <timeTaken>714</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/rest_request_step.png</iconPath>
+            <testStepName>getDistanceMatrix - rqstDistanceMatrix</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+    </testRunnerResults>
+  </testSuite>
+  <testSuite>
+    <startTime>14:51:44</startTime>
+    <status>FINISHED</status>
+    <testSuiteName>TestSuite srvcElevation</testSuiteName>
+    <timeTaken>89</timeTaken>
+    <testRunnerResults>
+      <testCase>
+        <startTime>14:51:44</startTime>
+        <status>FINISHED</status>
+        <testCaseId>b0e79b34-9896-4e35-a67c-ed2565e051aa</testCaseId>
+        <testCaseName>rsrcElevation TestCase</testCaseName>
+        <timeTaken>33</timeTaken>
+        <testStepResults>
+          <result>
+            <message>Step 1 [rqstElevation] OK: took 33 ms</message>
+            <name>rqstElevation</name>
+            <order>2</order>
+            <started>14:51:44.485</started>
+            <status>OK</status>
+            <timeTaken>33</timeTaken>
+          </result>
+        </testStepResults>
+        <testStepParameters>
+          <parameters>
+            <iconPath>/rest_request_step.png</iconPath>
+            <testStepName>rqstElevation</testStepName>
+          </parameters>
+        </testStepParameters>
+        <failedTestSteps/>
+      </testCase>
+    </testRunnerResults>
+  </testSuite>
+</testSuiteResults>
