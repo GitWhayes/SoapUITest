@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="demoAPIIntegration.TestSuite srvcGoogleDirections" tests="2" failures="0" errors="0" time="1.781" package="demoAPIIntegration" id="1">
+  <testsuite name="SOAPUITest.TestSuite srvcGoogleDirections" tests="2" failures="0" errors="0" time="1.841" package="SOAPUITest" id="1">
     <properties>
       <property name="soapui.properties" value="soapui.properties"/>
       <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -47,7 +47,7 @@
       <property name="user.name" value="graywa01"/>
       <property name="soapui.ext.listeners" value="C:\Program Files\SmartBear\ReadyAPI-2.1.0\bin\listeners"/>
       <property name="java.vm.specification.version" value="1.8"/>
-      <property name="sun.java.command" value="com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner -r -a -j -J -fC:\Users\graywa01\Documents\_Nielsen\NewJenkins\API\demoAPIIntegration2 -RData Export -FXML -EDefault environment C:\Users\graywa01\Documents\_Nielsen\NewJenkins\API\demoAPIIntegration2"/>
+      <property name="sun.java.command" value="com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner -r -a -j -J -fC:\Users\graywa01\Documents\_Nielsen\NewJenkins\API\demoAPIIntegration2 -RJUnit-Style HTML Report -EDefault environment C:\Users\graywa01\Documents\_Nielsen\NewJenkins\API\demoAPIIntegration2"/>
       <property name="java.home" value="C:\Program Files\SmartBear\ReadyAPI-2.1.0\jre"/>
       <property name="sun.arch.data.model" value="64"/>
       <property name="groovy.source.encoding" value="iso-8859-1"/>
@@ -66,14 +66,14 @@
       <property name="sun.desktop" value="windows"/>
       <property name="sun.cpu.isalist" value="amd64"/>
     </properties>
-    <testcase name="rsrcGoogleDirections TestCase" time="1.067">
+    <testcase name="rsrcGoogleDirections TestCase" time="1.183">
       <properties/>
     </testcase>
-    <testcase name="TestCase_DistanceMatrix" time="0.714">
+    <testcase name="TestCase_DistanceMatrix" time="0.658">
       <properties/>
     </testcase>
   </testsuite>
-  <testsuite name="demoAPIIntegration.TestSuite srvcElevation" tests="1" failures="0" errors="0" time="0.033" package="demoAPIIntegration" id="2">
+  <testsuite name="SOAPUITest.TestSuite srvcElevation" tests="1" failures="0" errors="0" time="0.099" package="SOAPUITest" id="2">
     <properties>
       <property name="soapui.properties" value="soapui.properties"/>
       <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -120,7 +120,7 @@
       <property name="user.name" value="graywa01"/>
       <property name="soapui.ext.listeners" value="C:\Program Files\SmartBear\ReadyAPI-2.1.0\bin\listeners"/>
       <property name="java.vm.specification.version" value="1.8"/>
-      <property name="sun.java.command" value="com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner -r -a -j -J -fC:\Users\graywa01\Documents\_Nielsen\NewJenkins\API\demoAPIIntegration2 -RData Export -FXML -EDefault environment C:\Users\graywa01\Documents\_Nielsen\NewJenkins\API\demoAPIIntegration2"/>
+      <property name="sun.java.command" value="com.smartbear.ready.cmd.runner.pro.SoapUIProTestCaseRunner -r -a -j -J -fC:\Users\graywa01\Documents\_Nielsen\NewJenkins\API\demoAPIIntegration2 -RJUnit-Style HTML Report -EDefault environment C:\Users\graywa01\Documents\_Nielsen\NewJenkins\API\demoAPIIntegration2"/>
       <property name="java.home" value="C:\Program Files\SmartBear\ReadyAPI-2.1.0\jre"/>
       <property name="sun.arch.data.model" value="64"/>
       <property name="groovy.source.encoding" value="iso-8859-1"/>
@@ -139,7 +139,7 @@
       <property name="sun.desktop" value="windows"/>
       <property name="sun.cpu.isalist" value="amd64"/>
     </properties>
-    <testcase name="rsrcElevation TestCase" time="0.033">
+    <testcase name="rsrcElevation TestCase" time="0.099">
       <properties/>
     </testcase>
   </testsuite>

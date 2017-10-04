@@ -1,7 +1,7 @@
 Status: OK
-Time Taken: 33
+Time Taken: 99
 Size: 247
-Timestamp: Mon Oct 02 14:51:44 EDT 2017
+Timestamp: Wed Oct 04 09:46:37 EDT 2017
 TestStep: rqstElevation
 
 ----------------- Messages ------------------------------
@@ -28,14 +28,13 @@ User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
 
 ---------------- Response --------------------------
 X-Frame-Options: [SAMEORIGIN]
-Server: [mafe]
 Cache-Control: [public, max-age=86400]
+Server: [mafe]
 Alt-Svc: [quic=":443"; ma=2592000; v="39,38,37,35"]
-Expires: [Tue, 03 Oct 2017 18:50:12 GMT]
+Expires: [Thu, 05 Oct 2017 13:46:38 GMT]
 #status#: [HTTP/1.1 200 OK]
 X-XSS-Protection: [1; mode=block]
-Date: [Mon, 02 Oct 2017 18:50:12 GMT]
-Age: [92]
+Date: [Wed, 04 Oct 2017 13:46:38 GMT]
 Content-Type: [application/json; charset=UTF-8]
 
 {

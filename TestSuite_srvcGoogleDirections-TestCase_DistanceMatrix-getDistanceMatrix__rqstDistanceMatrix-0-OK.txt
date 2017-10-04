@@ -1,7 +1,7 @@
 Status: OK
-Time Taken: 714
+Time Taken: 658
 Size: 23251
-Timestamp: Mon Oct 02 14:51:43 EDT 2017
+Timestamp: Wed Oct 04 09:46:37 EDT 2017
 TestStep: getDistanceMatrix - rqstDistanceMatrix
 
 ----------------- Messages ------------------------------
@@ -32,10 +32,10 @@ Cache-Control: [public, max-age=86400]
 Server: [mafe]
 Alt-Svc: [quic=":443"; ma=2592000; v="39,38,37,35"]
 Vary: [Accept-Language]
-Expires: [Tue, 03 Oct 2017 18:51:44 GMT]
+Expires: [Thu, 05 Oct 2017 13:46:37 GMT]
 #status#: [HTTP/1.1 200 OK]
 X-XSS-Protection: [1; mode=block]
-Date: [Mon, 02 Oct 2017 18:51:44 GMT]
+Date: [Wed, 04 Oct 2017 13:46:37 GMT]
 Content-Type: [application/json; charset=UTF-8]
 
 {
